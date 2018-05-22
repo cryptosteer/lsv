@@ -1,3 +1,5 @@
+__autor__ = 'Osnaider Miranda Caceres'
+
 from functools import lru_cache
 
 
