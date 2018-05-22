@@ -20,7 +20,7 @@ def fibonacci(number):
 
 
 print('Listing data of function fibonacci')
-fibonacci(10)
+fibonacci(2000)
 
 print('\n\nListing data of function fibonacci cached and recursive')
 [print(fibonacci_recursive(number), end=', ') for number in range(10)]
