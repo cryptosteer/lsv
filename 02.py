@@ -22,24 +22,33 @@ to be a console input.
 """
 
 import math
+
+def calcular():
+    C = 50
+    H = 30
+    entradas = []
+    for k in range(3):
+        entradas.append(input("Introducir valores para calcular: "))
+
+    for i in entradas:
+        r = math.sqrt((2 * C * int(i)) / H)
+        print(int(r))
+
+calcular()
+
+
+# ****************************************************************
+
+
+import math
 def calcular():
     C = 50
     H = 30
     entradas = [100 ,150 ,180]
     for i in entradas:
         r = math.sqrt((2 * C * i) / H)
-
         print( int(r))
-
-
 calcular()
 
 
-
-
-
-
-
-
-
-
+# #****************************************************
