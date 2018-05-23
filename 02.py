@@ -22,6 +22,7 @@ to be a console input.
 """
 
 import math
+
 def calcular():
     C = 50
     H = 30
@@ -31,7 +32,7 @@ def calcular():
     print("\nEl resultado es:")
     for i in entradas:
         r = math.sqrt((2 * C * int(i)) / H)
-        print(int(r))
+        print(int(r), ",", end="")
 
 calcular()
 
@@ -47,7 +48,7 @@ def calcular():
     print("\nEl resultado es:")
     for i in entradas:
         r = math.sqrt((2 * C * i) / H)
-        print(int(r))
+        print(int(r), ",", end="")
 
 calcular()
 
