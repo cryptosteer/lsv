@@ -26,7 +26,7 @@ C, H = 50, 30
 
 #Formula
 def formula(d):
-    return int(sqrt((2 * _C * d)/_H))
+    return int(sqrt((2 * C * d)/H))
 
 #Funcion main
 def main():
