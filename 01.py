@@ -12,3 +12,4 @@ print(list)
 list_comp = [num for num in range(20000,320001) if(num%7==0 and not(num%5==0))]
 print("..................................")
 print(list_comp)
+
