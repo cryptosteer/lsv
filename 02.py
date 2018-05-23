@@ -22,7 +22,6 @@ to be a console input.
 """
 
 import math
-
 def calcular():
     C = 50
     H = 30
