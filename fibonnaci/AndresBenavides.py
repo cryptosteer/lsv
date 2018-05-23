@@ -45,7 +45,8 @@ def fib_even_gen(n):
 if __name__ == '__main__':
     # Decorator with recursion list comprehension
     start4 = time.perf_counter()
-    print([fib(a) for a in range(0, 20000)])
+    l = [fib(a) for a in range(0, 20000)]
+    print(l)
     end4 = time.perf_counter()
     print("=" * 30 + "\n", "Recusive decorator en {} segundos".format(end4 - start4))
 
@@ -57,6 +58,8 @@ if __name__ == '__main__':
 
     # Decorator with recursion limit fixed
     start = time.perf_counter()
-    fib(13779)
+    fib(332)
+    print()
+    fib(664)
     end = time.perf_counter()
     print("=" * 30 + "\n", "Recusive decorator en {} segundos".format(end - start))
