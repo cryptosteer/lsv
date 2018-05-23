@@ -5,7 +5,7 @@ Imprimir en una linea separados por coma todos los elementos que sean divisibles
 from pprint import pprint
 
 pprint(
-    [number for number in range(20000, 32000) if number % 7 == 0 and not number % 5 == 0],
+    [number for number in range(20000, 32001) if number % 7 == 0 and not number % 5 == 0],
     indent=3,
     compact=True
 )
