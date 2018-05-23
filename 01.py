@@ -8,10 +8,9 @@ def lista():
 for i in range(20000,32000):
     if i % 7 == 0 and i %5 != 0:
 
-        lista.add = [i]
-
+        lista.append = [i]
         print (lista())
-    else: print("No existen numeros que cumplan con lo requerido")
+
 
 
 
@@ -26,3 +25,5 @@ l2 = []
 c = c+1
 
 print (l2)
+
+else: print("No existen numeros que cumplan con lo requerido")
