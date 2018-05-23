@@ -5,7 +5,7 @@ Trabajar con listas.
 """
 
 values = []
-for x in range(1, 32000):
+for x in range(2000, 32000):
 
     if x % 7 == 0 and x % 5 != 0:
         values.append(x)
