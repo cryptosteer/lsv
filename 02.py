@@ -19,4 +19,21 @@ off to its nearest value (for example, if the output received is 26.0,
 it should be printed as 26)
 In case of input data being supplied to the question, it should be assumed
 to be a console input.
-""" 
+"""
+from math import sqrt
+#Constantes
+C, H = 50, 30
+
+#Formula
+def formula(d):
+    return int(sqrt((2 * _C * d)/_H))
+
+#Funcion main
+def main():
+    input_data = input("Digite los numeros a calcular separados por ',' ")
+    list = [int(element) for element in input_data.split(',')]
+    for item in list:
+        print(formula(item), end=', ')
+
+# Run
+main()
