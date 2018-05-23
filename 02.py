@@ -20,3 +20,20 @@ it should be printed as 26)
 In case of input data being supplied to the question, it should be assumed
 to be a console input.
 """ 
+
+import math 
+
+def raizCuadrada(D):
+	for i in D:
+		Q = (math.sqrt((2*50*i)/30))
+		print(round(Q), end=",")
+
+val1 = input("Digite los valores:")
+val2 = val1.split(',')
+
+D = []
+for i in val2:
+	D.append(float(i))
+
+raizCuadrada(D)
+
