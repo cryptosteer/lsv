@@ -29,7 +29,7 @@ def calcular():
     entradas = []
     for k in range(3):
         entradas.append(input("Introducir valores para calcular: "))
-
+    print("\nEl resultado es:")
     for i in entradas:
         r = math.sqrt((2 * C * int(i)) / H)
         print(int(r))
@@ -45,9 +45,11 @@ def calcular():
     C = 50
     H = 30
     entradas = [100 ,150 ,180]
+    print("\nEl resultado es:")
     for i in entradas:
         r = math.sqrt((2 * C * i) / H)
-        print( int(r))
+        print(int(r))
+
 calcular()
 
 
