@@ -5,7 +5,7 @@ Trabajar con listas.
 def listar():
     lista=[]
     for i in range(20000,32001):
-        if (i%7)==0 and (i%5)!=0:
+        if i%7==0 and i%5!=0:
             lista.append(i)
     return lista
 
