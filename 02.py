@@ -39,6 +39,14 @@ def square_root_default(data, c=50, h=30):
     return result
 
 
+def square_root_list_comprenhesion(data, c=50, h=30):
+    list_data = data.split(',')
+    return [
+        int(math.sqrt((2 * c * int(item)) / h)) for item in list_data
+    ]
+
+
 data = "100, 150, 180"
 print(square_root(data))
 print(square_root_default(data))
+print(square_root_list_comprenhesion(data))
