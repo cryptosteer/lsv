@@ -19,4 +19,26 @@ off to its nearest value (for example, if the output received is 26.0,
 it should be printed as 26)
 In case of input data being supplied to the question, it should be assumed
 to be a console input.
-""" 
+"""
+import math
+
+
+def square_root(data, c=50, h=30):
+    list_data = data.split(',')
+    return list(
+        map(lambda x: int(math.sqrt((2 * c * int(x)) / h))
+            , list_data)
+    )
+
+
+def square_root_default(data, c=50, h=30):
+    list_data = data.split(',')
+    result = []
+    for item in list_data:
+        result.append(int(math.sqrt((2 * c * int(item)) / h)))
+    return result
+
+
+data = "100, 150, 180"
+print(square_root(data))
+print(square_root_default(data))
