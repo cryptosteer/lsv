@@ -10,7 +10,7 @@ to dos:
 """
 
 # Obteniendo rangos
-rango = range(20001,32001)
+rango = range(20001, 32001)
 lists = []
 listfive = []
 # Rangos divisibles for 7 
