@@ -6,7 +6,6 @@ from math import pi
 class Figura:
 
     name = "Ninguna"
-    msg = ""
 
     def descripcion(self):
         return "Soy una figura"
@@ -18,19 +17,12 @@ class Figura:
         pass
 
     def __str__(self):
-        self.msg = "="*20+"\n"
-        self.msg += "Caracteristicas del {}\n".format(self.name)
-        self.msg += "\tArea -> {}\n".format(self.area())
-        self.msg += "\tPerimetro -> {}\n".format(self.perimetro())
-        self.msg += "\tDescripcion -> {}\n".format(self.descripcion())
-        return self.msg
-
-    def show(self):
-        print("="*20)
-        print("Caracteristicas del {}".format(self.name))
-        print("\tArea -> {}".format(self.area()))
-        print("\tPerimetro -> {}".format(self.perimetro()))
-        print("\tDescripcion -> {}".format(self.descripcion()))
+        msg = "="*20+"\n"
+        msg += "Caracteristicas del {}\n".format(self.name)
+        msg += "\tArea -> {}\n".format(self.area())
+        msg += "\tPerimetro -> {}\n".format(self.perimetro())
+        msg += "\tDescripcion -> {}\n".format(self.descripcion())
+        return msg
 
 class Circulo(Figura):
 
