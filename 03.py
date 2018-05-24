@@ -9,15 +9,16 @@ class Circulo:
     def __init__(self, radio):
         self.radio = radio
 
-    def calarea(self):
+    def cal_area(self):
         return math.pi * (self.radio ** 2)
 
-    def calpermiter(self):
+    def cal_permiter(self):
         return 2 * math.pi * self.radio
 
 
 if __name__ == '__main__':
-    A = Circulo(2)
+
+    A = Circulo()
 
     print("The area is :", A.calarea())
     print("THe perimeter is:", A.calpermiter())
