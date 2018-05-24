@@ -5,7 +5,7 @@ import math
 
 
 class Figure:
-    def Description(self):
+    def description(self):
         return "I am a figure"
 
 
@@ -20,7 +20,7 @@ class Circle(Figure):
     def cal_perimeter(self):
         return 2 * math.pi * self.radio
 
-    def Description(self):
+    def description(self):
         return "I am a Circle"
 
     def __str__(self):
@@ -38,17 +38,16 @@ class Squeare(Figure):
     def cal_perimeter(self):
         return 4 * self.side
 
-    def Description(self):
+    def description(self):
         return "I am a Squeare"
 
     def __str__(self):
-        return "Asqueare have a Area: {}, Perimeter: {}".format(self.cal_area(),self.cal_perimeter())
+        return "Asqueare have a Area: {}, Perimeter: {}".format(self.cal_area(), self.cal_perimeter())
+
 
 if __name__ == '__main__':
-
     A = Circle(2)
     print(A)
     print("------------------------------------------")
     B = Squeare(2)
     print(B)
-
