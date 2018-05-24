@@ -12,11 +12,47 @@ given to the program:
 100,150,180
 The output of the program should be:
 18,22,24
- 
+
 Hints:
 If the output received is in decimal form, it should be rounded
 off to its nearest value (for example, if the output received is 26.0,
 it should be printed as 26)
 In case of input data being supplied to the question, it should be assumed
 to be a console input.
-""" 
+"""
+from sympy import symbols, init_printing, sqrt as sq, pprint as show
+from math import sqrt
+from pprint import pprint
+
+def Q(D: int) -> float:
+    return sqrt((2 * 50 * D)/30)
+
+
+def show_equation() -> None:
+    print("Operacion a realizar")
+    init_printing()
+    x = symbols('x')
+    print("="*10)
+    show(sq((2 * 50 * x)/30))
+    print("="*10)
+
+def main():
+    show_equation()
+    while True:
+        D = input("Ingrese lista de valores de x <ej. 18,22,24>: ")
+        D = D.split(',')
+        try:
+            D = [tuple( ( value, Q(int(value)) ) ) for value in D ]
+            print("-"*10)
+            print("Soluciones")
+            print("="*10)
+            for key,value in D:
+                print("Numero {0} = {1}".format(key, value))
+            print("="*10)
+
+            break
+        except ValueError:
+            print("Ingrese la informacion en el formato correcto")
+
+if __name__ == "__main__":
+    main()
