@@ -49,4 +49,4 @@ def square_root_list_comprenhesion(data, c=50, h=30):
 data = "100, 150, 180"
 print(square_root(data))
 print(square_root_default(data))
-print(square_root_list_comprenhesion(data))
+print(square_root_default(data))
