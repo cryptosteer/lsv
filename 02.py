@@ -36,6 +36,16 @@ def show_equation() -> None:
     show(sq((2 * 50 * x)/30))
     print("="*10)
 
+
+def show_results(D: list) -> None:
+    print("-"*10)
+    print("Soluciones")
+    print("="*10)
+    for key,value in D:
+        print("Numero {0} = {1}".format(key, value))
+    print("="*10)
+
+
 def main():
     show_equation()
     while True:
@@ -43,13 +53,7 @@ def main():
         D = D.split(',')
         try:
             D = [tuple( ( value, Q(int(value)) ) ) for value in D ]
-            print("-"*10)
-            print("Soluciones")
-            print("="*10)
-            for key,value in D:
-                print("Numero {0} = {1}".format(key, value))
-            print("="*10)
-
+            show_results(D)
             break
         except ValueError:
             print("Ingrese la informacion en el formato correcto")
