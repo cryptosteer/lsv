@@ -12,4 +12,3 @@ for i in range(20000, 32001):
 print("Elementos divisibles por 7 y no multiplos de 5 entre 20000 y 32000")
 for i in lista:
 	print(i, end=",") 
-
