@@ -5,6 +5,12 @@ import math
 
 
 class Figura:
+    def area(self):
+        pass
+
+    def perimetro(self):
+        pass
+
     def descripcion(self):
         print("Soy una figura")
 
