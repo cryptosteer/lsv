@@ -6,6 +6,7 @@ from math import pi
 class Figura:
 
     name = "Ninguna"
+    msg = ""
 
     def descripcion(self):
         return "Soy una figura"
@@ -15,6 +16,14 @@ class Figura:
 
     def perimetro(self) -> float:
         pass
+
+    def __str__(self):
+        self.msg = "="*20+"\n"
+        self.msg += "Caracteristicas del {}\n".format(self.name)
+        self.msg += "\tArea -> {}\n".format(self.area())
+        self.msg += "\tPerimetro -> {}\n".format(self.perimetro())
+        self.msg += "\tDescripcion -> {}\n".format(self.descripcion())
+        return self.msg
 
     def show(self):
         print("="*20)
@@ -35,10 +44,8 @@ class Circulo(Figura):
     def perimetro(self):
         return 2*pi*self.radio
 
-    def show(self):
-        super().show()
-        print("\tRadio -> {}".format(self.radio))
-
+    def __str__(self):
+        return super(Circulo, self).__str__() + "\tRadio -> {}".format(self.radio)
 
 class Cuadrado(Figura):
 
@@ -52,15 +59,14 @@ class Cuadrado(Figura):
     def perimetro(self):
         return 4 * self.lado_dim
 
-    def show(self):
-        super().show()
-        print("\tDimension de los lados -> {}".format(self.lado_dim))
+    def __str__(self):
+        return super(Cuadrado, self).__str__() + "\tDimension de los lados -> {0}".format(self.lado_dim)
 
 
 if __name__ == "__main__":
     my_circle = Circulo(4.90)
-    my_circle.show()
+    print(my_circle)
 
     my_square = Cuadrado(4)
-    my_square.show()
+    print(my_square)
 
