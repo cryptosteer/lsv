@@ -1,3 +1,4 @@
+
 """.
 Write a program that calculates and prints the value according to the given
 formula:
