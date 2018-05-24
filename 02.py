@@ -28,12 +28,7 @@ C, H = 50, 30
 def formula(d):
     return int(sqrt((2 * C * d)/H))
 
-#Funcion main
-def main():
-    input_data = input("Digite los numeros a calcular separados por ',' ")
-    list = [int(element) for element in input_data.split(',')]
-    for item in list:
-        print(formula(item), end=', ')
-
-# Run
-main()
+input_data = input("Digite los numeros a calcular separados por ',' ")
+list = [int(element) for element in input_data.split(',')]
+for item in list:
+    print(formula(item), end=', ')
