@@ -11,8 +11,8 @@ class Figura:
     def perimetro(self):
         pass
 
-    def descripcion(self):
-        print("Soy una figura")
+    def __str__(self):
+        return "Soy una figura"
 
 
 class Circulo(Figura):
@@ -25,8 +25,8 @@ class Circulo(Figura):
     def perimetro(self):
         return 2*math.pi*self.radio
 
-    def descripcion(self):
-        print("Soy un circulo")
+    def __str__(self):
+        return "Soy un circulo"
 
 
 class Cuadrado(Figura):
@@ -39,15 +39,16 @@ class Cuadrado(Figura):
     def perimetro(self):
         return self.lado*4
 
-    def descripcion(self):
-        print("Soy un cuadrado")
+    def __str__(self):
+        return "Soy un cuadrado"
 
 # c=Circulo(int(input("Ingrese el radio deseado: ")))
 circulo=Circulo(8)
 print("El area del circulo es: ", circulo.area())
 print("El perimetro del circulo es: ", circulo.perimetro())
-circulo.descripcion()
+print(circulo)
 cuadrado=Cuadrado(2)
+print("--------------------------------")
 print("El area del cuadrado es: ", cuadrado.area())
 print("El perimetro del cuadrado es: ", cuadrado.perimetro())
-cuadrado.descripcion()
+print(cuadrado)
