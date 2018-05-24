@@ -1,6 +1,7 @@
 """
 Imprimir en una linea separados por coma todos los elementos que sean divisibles por 7 y no sean multipolos de 5 entre 20000 y 32000 (Incluyendo estos elementos).
 Trabajar con listas.
+<<<<<<< HEAD
 to dos:
 1. obtener rangos | listo
 2. divisibles por 7 | listo
@@ -30,3 +31,7 @@ for i in lists:
 for i in listfive:
     print(i, end=", ")
 
+=======
+
+"""
+>>>>>>> 7d1c64f9bd7ec2dffa33b570c9e4aafef585fdd8
