@@ -1,0 +1,816 @@
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/premkproject
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/postmkproject
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/initialize
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/premkvirtualenv
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/postmkvirtualenv
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/prermvirtualenv
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/postrmvirtualenv
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/predeactivate
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/postdeactivate
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/preactivate
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/postactivate
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/get_env_details
+pedro@pedro-OptiPlex-7010:~$ 
+pedro@pedro-OptiPlex-7010:~$ 
+pedro@pedro-OptiPlex-7010:~$ clear
+
+pedro@pedro-OptiPlex-7010:~$ workon
+pedro@pedro-OptiPlex-7010:~$ 
+pedro@pedro-OptiPlex-7010:~$ 
+pedro@pedro-OptiPlex-7010:~$ python
+Python 2.7.12 (default, Dec  4 2017, 14:50:18) 
+[GCC 5.4.0 20160609] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit()
+pedro@pedro-OptiPlex-7010:~$ 
+pedro@pedro-OptiPlex-7010:~$ 
+pedro@pedro-OptiPlex-7010:~$ 
+pedro@pedro-OptiPlex-7010:~$ 
+pedro@pedro-OptiPlex-7010:~$ sudo apt install python-pip
+[sudo] password for pedro: 
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Se instalarán los siguientes paquetes adicionales:
+  libexpat1-dev libpython-all-dev libpython-dev libpython2.7-dev python-all
+  python-all-dev python-dev python-pip-whl python-pkg-resources
+  python-setuptools python-wheel python2.7-dev
+Paquetes sugeridos:
+  python-setuptools-doc
+Se instalarán los siguientes paquetes NUEVOS:
+  libexpat1-dev libpython-all-dev libpython-dev libpython2.7-dev python-all
+  python-all-dev python-dev python-pip python-pip-whl python-pkg-resources
+  python-setuptools python-wheel python2.7-dev
+0 actualizados, 13 nuevos se instalarán, 0 para eliminar y 101 no actualizados.
+Se necesita descargar 29,8 MB de archivos.
+Se utilizarán 45,2 MB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+Des:1 http://co.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libexpat1-dev amd64 2.1.0-7ubuntu0.16.04.3 [115 kB]
+Des:2 http://co.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpython2.7-dev amd64 2.7.12-1ubuntu0~16.04.3 [27,8 MB]
+Des:3 http://co.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpython-dev amd64 2.7.12-1~16.04 [7.840 B]
+Des:4 http://co.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpython-all-dev amd64 2.7.12-1~16.04 [1.006 B]
+Des:5 http://co.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python-all amd64 2.7.12-1~16.04 [996 B]
+Des:6 http://co.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python2.7-dev amd64 2.7.12-1ubuntu0~16.04.3 [276 kB]
+Des:7 http://co.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python-dev amd64 2.7.12-1~16.04 [1.186 B]
+Des:8 http://co.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python-all-dev amd64 2.7.12-1~16.04 [1.016 B]
+Des:9 http://co.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 python-pip-whl all 8.1.1-2ubuntu0.4 [1.110 kB]
+Des:10 http://co.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 python-pip all 8.1.1-2ubuntu0.4 [144 kB]
+Des:11 http://co.archive.ubuntu.com/ubuntu xenial/main amd64 python-pkg-resources all 20.7.0-1 [108 kB]
+Des:12 http://co.archive.ubuntu.com/ubuntu xenial/main amd64 python-setuptools all 20.7.0-1 [169 kB]
+Des:13 http://co.archive.ubuntu.com/ubuntu xenial/universe amd64 python-wheel all 0.29.0-1 [48,0 kB]
+Descargados 29,8 MB en 2min 13s (223 kB/s)                                     
+Seleccionando el paquete libexpat1-dev:amd64 previamente no seleccionado.
+(Leyendo la base de datos ... 214697 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../libexpat1-dev_2.1.0-7ubuntu0.16.04.3_amd64.deb ...
+Desempaquetando libexpat1-dev:amd64 (2.1.0-7ubuntu0.16.04.3) ...
+Seleccionando el paquete libpython2.7-dev:amd64 previamente no seleccionado.
+Preparando para desempaquetar .../libpython2.7-dev_2.7.12-1ubuntu0~16.04.3_amd64.deb ...
+Desempaquetando libpython2.7-dev:amd64 (2.7.12-1ubuntu0~16.04.3) ...
+Seleccionando el paquete libpython-dev:amd64 previamente no seleccionado.
+Preparando para desempaquetar .../libpython-dev_2.7.12-1~16.04_amd64.deb ...
+Desempaquetando libpython-dev:amd64 (2.7.12-1~16.04) ...
+Seleccionando el paquete libpython-all-dev:amd64 previamente no seleccionado.
+Preparando para desempaquetar .../libpython-all-dev_2.7.12-1~16.04_amd64.deb ...
+Desempaquetando libpython-all-dev:amd64 (2.7.12-1~16.04) ...
+Seleccionando el paquete python-all previamente no seleccionado.
+Preparando para desempaquetar .../python-all_2.7.12-1~16.04_amd64.deb ...
+Desempaquetando python-all (2.7.12-1~16.04) ...
+Seleccionando el paquete python2.7-dev previamente no seleccionado.
+Preparando para desempaquetar .../python2.7-dev_2.7.12-1ubuntu0~16.04.3_amd64.deb ...
+Desempaquetando python2.7-dev (2.7.12-1ubuntu0~16.04.3) ...
+Seleccionando el paquete python-dev previamente no seleccionado.
+Preparando para desempaquetar .../python-dev_2.7.12-1~16.04_amd64.deb ...
+Desempaquetando python-dev (2.7.12-1~16.04) ...
+Seleccionando el paquete python-all-dev previamente no seleccionado.
+Preparando para desempaquetar .../python-all-dev_2.7.12-1~16.04_amd64.deb ...
+Desempaquetando python-all-dev (2.7.12-1~16.04) ...
+Seleccionando el paquete python-pip-whl previamente no seleccionado.
+Preparando para desempaquetar .../python-pip-whl_8.1.1-2ubuntu0.4_all.deb ...
+Desempaquetando python-pip-whl (8.1.1-2ubuntu0.4) ...
+Seleccionando el paquete python-pip previamente no seleccionado.
+Preparando para desempaquetar .../python-pip_8.1.1-2ubuntu0.4_all.deb ...
+Desempaquetando python-pip (8.1.1-2ubuntu0.4) ...
+Seleccionando el paquete python-pkg-resources previamente no seleccionado.
+Preparando para desempaquetar .../python-pkg-resources_20.7.0-1_all.deb ...
+Desempaquetando python-pkg-resources (20.7.0-1) ...
+Seleccionando el paquete python-setuptools previamente no seleccionado.
+Preparando para desempaquetar .../python-setuptools_20.7.0-1_all.deb ...
+Desempaquetando python-setuptools (20.7.0-1) ...
+Seleccionando el paquete python-wheel previamente no seleccionado.
+Preparando para desempaquetar .../python-wheel_0.29.0-1_all.deb ...
+Desempaquetando python-wheel (0.29.0-1) ...
+Procesando disparadores para doc-base (0.10.7) ...
+Procesando 1 archivo doc-base añadido...
+Procesando disparadores para man-db (2.7.5-1) ...
+Configurando libexpat1-dev:amd64 (2.1.0-7ubuntu0.16.04.3) ...
+Configurando libpython2.7-dev:amd64 (2.7.12-1ubuntu0~16.04.3) ...
+Configurando libpython-dev:amd64 (2.7.12-1~16.04) ...
+Configurando libpython-all-dev:amd64 (2.7.12-1~16.04) ...
+Configurando python-all (2.7.12-1~16.04) ...
+Configurando python2.7-dev (2.7.12-1ubuntu0~16.04.3) ...
+Configurando python-dev (2.7.12-1~16.04) ...
+Configurando python-all-dev (2.7.12-1~16.04) ...
+Configurando python-pip-whl (8.1.1-2ubuntu0.4) ...
+Configurando python-pip (8.1.1-2ubuntu0.4) ...
+Configurando python-pkg-resources (20.7.0-1) ...
+Configurando python-setuptools (20.7.0-1) ...
+Configurando python-wheel (0.29.0-1) ...
+pedro@pedro-OptiPlex-7010:~$ 
+
+********************************************************************************************
+
+pedro@pedro-OptiPlex-7010:~$ sudo add-apt-repository ppa:jonathonf/python-3.6
+[sudo] password for pedro: 
+Lo sentimos, vuelva a intentarlo.
+[sudo] password for pedro: 
+ A plain backport of *just* Python 3.6. System extensions/Python libraries may or may not work.
+
+Don't remove Python 3.5 from your system - it will break.
+ Más información: https://launchpad.net/~jonathonf/+archive/ubuntu/python-3.6
+Pulse [Intro] para continuar o ctrl-c para cancelar
+
+gpg: anillo «/tmp/tmpecy8agsl/secring.gpg» creado
+gpg: anillo «/tmp/tmpecy8agsl/pubring.gpg» creado
+gpg: solicitando clave F06FC659 de hkp servidor keyserver.ubuntu.com
+gpg: /tmp/tmpecy8agsl/trustdb.gpg: se ha creado base de datos de confianza
+gpg: clave F06FC659: clave pública "Launchpad PPA for J Fernyhough" importada
+gpg: Cantidad total procesada: 1
+gpg:               importadas: 1  (RSA: 1)
+OK
+pedro@pedro-OptiPlex-7010:~$ sudo pip install virtualenvwrapper
+The directory '/home/pedro/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/home/pedro/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Requirement already satisfied: virtualenvwrapper in /usr/local/lib/python2.7/dist-packages (4.8.2)
+Requirement already satisfied: virtualenv in /usr/local/lib/python2.7/dist-packages (from virtualenvwrapper) (16.0.0)
+Requirement already satisfied: stevedore in /usr/local/lib/python2.7/dist-packages (from virtualenvwrapper) (1.28.0)
+Requirement already satisfied: virtualenv-clone in /usr/local/lib/python2.7/dist-packages (from virtualenvwrapper) (0.3.0)
+Requirement already satisfied: pbr!=2.1.0,>=2.0.0 in /usr/local/lib/python2.7/dist-packages (from stevedore->virtualenvwrapper) (4.0.3)
+Requirement already satisfied: six>=1.10.0 in /usr/local/lib/python2.7/dist-packages (from stevedore->virtualenvwrapper) (1.11.0)
+pedro@pedro-OptiPlex-7010:~$ sudo add-apt-repository ppa:deadsnakes/ppa
+ This PPA contains more recent Python versions packaged for Ubuntu.
+
+Disclaimer: there's no guarantee of timely updates in case of security problems or other issues. If you want to use them in a security-or-otherwise-critical environment (say, on a production server), you do so at your own risk.
+
+Update Note
+===========
+Please use this repository instead of ppa:fkrull/deadsnakes.
+
+Reporting Issues
+================
+Issues can be reported in the master issue tracker at:
+https://github.com/deadsnakes/issues/issues
+
+Supported Ubuntu and Python Versions
+====================================
+Python 3.6 - Ubuntu 14.04, Ubuntu 16.04
+
+For Ubuntu up to 18.04, there's also packages for old Python versions from 2.3 to 3.4.
+
+The packages may also work on other versions of Ubuntu or Debian, but that is not tested or supported.
+
+Third-Party Python Modules
+==========================
+Python modules in the official Ubuntu repositories are packaged to work with the Python interpreters from the official repositories. Accordingly, they generally won't work with the Python interpreters from this PPA. As an exception, pure-Python modules for Python 3 will work, but any compiled extension modules won't.
+
+To install 3rd-party Python modules, you should use the common Python packaging tools.  For an introduction into the Python packaging ecosystem and its tools, refer to the Python Packaging User Guide:
+https://packaging.python.org/installing/
+
+Sources
+=======
+The package sources are available at:
+https://github.com/deadsnakes/
+ Más información: https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa
+Pulse [Intro] para continuar o ctrl-c para cancelar
+
+gpg: anillo «/tmp/tmpqj8lay0w/secring.gpg» creado
+gpg: anillo «/tmp/tmpqj8lay0w/pubring.gpg» creado
+gpg: solicitando clave 6A755776 de hkp servidor keyserver.ubuntu.com
+gpg: /tmp/tmpqj8lay0w/trustdb.gpg: se ha creado base de datos de confianza
+gpg: clave 6A755776: clave pública "Launchpad PPA for deadsnakes" importada
+gpg: Cantidad total procesada: 1
+gpg:               importadas: 1  (RSA: 1)
+OK
+pedro@pedro-OptiPlex-7010:~$ sudo apt-get update
+Ign:1 http://dl.google.com/linux/chrome/deb stable InRelease                   
+Obj:2 http://co.archive.ubuntu.com/ubuntu xenial InRelease                     
+Des:3 http://co.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]    
+Obj:4 http://dl.google.com/linux/chrome/deb stable Release                     
+Des:6 http://co.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]  
+Des:7 http://co.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [783 kB]
+Des:8 http://security.ubuntu.com/ubuntu xenial-security InRelease [107 kB]     
+Des:9 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu xenial InRelease [18,0 kB]
+Des:10 http://co.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages [718 kB]
+Des:11 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial InRelease [18,0 kB]
+Des:12 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata [67,7 kB]
+Des:13 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu xenial/main amd64 Packages [24,1 kB]
+Des:14 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons [68,0 kB]
+Des:15 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata [107 kB]
+Des:16 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu xenial/main i386 Packages [24,1 kB]
+Des:17 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons [142 kB]
+Des:18 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu xenial/main Translation-en [6.240 B]
+Des:19 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial/main amd64 Packages [4.760 B]
+Des:20 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial/main i386 Packages [4.748 B]
+Des:21 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial/main Translation-en [2.128 B]
+Des:22 http://co.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata [319 kB]
+Des:23 http://co.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons [224 kB]
+Des:24 http://co.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [631 kB]
+Des:25 http://co.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages [577 kB]
+Des:26 http://co.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata [246 kB]
+Des:27 http://co.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons [331 kB]
+Des:28 http://co.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata [5.964 B]
+Des:29 http://co.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata [3.328 B]
+Des:30 http://co.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata [5.092 B]
+Descargados 4.652 kB en 20s (225 kB/s)                                         
+Leyendo lista de paquetes... Hecho
+pedro@pedro-OptiPlex-7010:~$ sudo apt-get install python3.6
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Se instalarán los siguientes paquetes adicionales:
+  libpython3.6-minimal libpython3.6-stdlib python3.6-minimal
+Paquetes sugeridos:
+  python3.6-venv python3.6-doc binfmt-support
+Se instalarán los siguientes paquetes NUEVOS:
+  libpython3.6-minimal libpython3.6-stdlib python3.6 python3.6-minimal
+0 actualizados, 4 nuevos se instalarán, 0 para eliminar y 102 no actualizados.
+Se necesita descargar 4.505 kB de archivos.
+Se utilizarán 23,1 MB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+Des:1 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial/main amd64 libpython3.6-minimal amd64 3.6.5-5~16.04.york1 [574 kB]
+Des:2 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial/main amd64 python3.6-minimal amd64 3.6.5-5~16.04.york1 [1.712 kB]
+Des:3 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial/main amd64 libpython3.6-stdlib amd64 3.6.5-5~16.04.york1 [1.989 kB]
+Des:4 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial/main amd64 python3.6 amd64 3.6.5-5~16.04.york1 [230 kB]
+Descargados 4.505 kB en 49s (90,2 kB/s)                                        
+Seleccionando el paquete libpython3.6-minimal:amd64 previamente no seleccionado.
+(Leyendo la base de datos ... 215136 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../libpython3.6-minimal_3.6.5-5~16.04.york1_amd64.deb ...
+Desempaquetando libpython3.6-minimal:amd64 (3.6.5-5~16.04.york1) ...
+Seleccionando el paquete python3.6-minimal previamente no seleccionado.
+Preparando para desempaquetar .../python3.6-minimal_3.6.5-5~16.04.york1_amd64.deb ...
+Desempaquetando python3.6-minimal (3.6.5-5~16.04.york1) ...
+Seleccionando el paquete libpython3.6-stdlib:amd64 previamente no seleccionado.
+Preparando para desempaquetar .../libpython3.6-stdlib_3.6.5-5~16.04.york1_amd64.deb ...
+Desempaquetando libpython3.6-stdlib:amd64 (3.6.5-5~16.04.york1) ...
+Seleccionando el paquete python3.6 previamente no seleccionado.
+Preparando para desempaquetar .../python3.6_3.6.5-5~16.04.york1_amd64.deb ...
+Desempaquetando python3.6 (3.6.5-5~16.04.york1) ...
+Procesando disparadores para man-db (2.7.5-1) ...
+Procesando disparadores para gnome-menus (3.13.3-6ubuntu3.1) ...
+Procesando disparadores para desktop-file-utils (0.22-1ubuntu5.1) ...
+Procesando disparadores para bamfdaemon (0.5.3~bzr0+16.04.20160824-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Procesando disparadores para mime-support (3.59ubuntu1) ...
+Configurando libpython3.6-minimal:amd64 (3.6.5-5~16.04.york1) ...
+Configurando python3.6-minimal (3.6.5-5~16.04.york1) ...
+Configurando libpython3.6-stdlib:amd64 (3.6.5-5~16.04.york1) ...
+Configurando python3.6 (3.6.5-5~16.04.york1) ...
+pedro@pedro-OptiPlex-7010:~$ mkvirtualenv -p python3
+Running virtualenv with interpreter /usr/bin/python3
+You must provide a DEST_DIR
+Usage: virtualenv.py [OPTIONS] DEST_DIR
+
+Options:
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+  -v, --verbose         Increase verbosity.
+  -q, --quiet           Decrease verbosity.
+  -p PYTHON_EXE, --python=PYTHON_EXE
+                        The Python interpreter to use, e.g.,
+                        --python=python3.5 will use the python3.5 interpreter
+                        to create the new environment.  The default is the
+                        interpreter that virtualenv was installed with
+                        (/usr/bin/python3)
+  --clear               Clear out the non-root install and start from scratch.
+  --no-site-packages    DEPRECATED. Retained only for backward compatibility.
+                        Not having access to global site-packages is now the
+                        default behavior.
+  --system-site-packages
+                        Give the virtual environment access to the global
+                        site-packages.
+  --always-copy         Always copy files rather than symlinking.
+  --relocatable         Make an EXISTING virtualenv environment relocatable.
+                        This fixes up scripts and makes all .pth files
+                        relative.
+  --no-setuptools       Do not install setuptools in the new virtualenv.
+  --no-pip              Do not install pip in the new virtualenv.
+  --no-wheel            Do not install wheel in the new virtualenv.
+  --extra-search-dir=DIR
+                        Directory to look for setuptools/pip distributions in.
+                        This option can be used multiple times.
+  --download            Download preinstalled packages from PyPI.
+  --no-download, --never-download
+                        Do not download preinstalled packages from PyPI.
+  --prompt=PROMPT       Provides an alternative prompt prefix for this
+                        environment.
+  --setuptools          DEPRECATED. Retained only for backward compatibility.
+                        This option has no effect.
+  --distribute          DEPRECATED. Retained only for backward compatibility.
+                        This option has no effect.
+  --unzip-setuptools    DEPRECATED.  Retained only for backward compatibility.
+                        This option has no effect.
+pedro@pedro-OptiPlex-7010:~$ mkvirtualenv -p python3.6 prodjango
+Running virtualenv with interpreter /usr/bin/python3.6
+Using base prefix '/usr'
+New python executable in /home/pedro/.virtualenvs/prodjango/bin/python3.6
+Also creating executable in /home/pedro/.virtualenvs/prodjango/bin/python
+Installing setuptools, pip, wheel...done.
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/prodjango/bin/predeactivate
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/prodjango/bin/postdeactivate
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/prodjango/bin/preactivate
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/prodjango/bin/postactivate
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/prodjango/bin/get_env_details
+(prodjango) pedro@pedro-OptiPlex-7010:~$ mkvirtualenv -p python3.6 prodjango
+
+********************************************************************************************
+
+pedro@pedro-OptiPlex-7010:~$ sudo add-apt-repository ppa:jonathonf/python-3.6
+[sudo] password for pedro: 
+Lo sentimos, vuelva a intentarlo.
+[sudo] password for pedro: 
+ A plain backport of *just* Python 3.6. System extensions/Python libraries may or may not work.
+
+Don't remove Python 3.5 from your system - it will break.
+ Más información: https://launchpad.net/~jonathonf/+archive/ubuntu/python-3.6
+Pulse [Intro] para continuar o ctrl-c para cancelar
+
+gpg: anillo «/tmp/tmpecy8agsl/secring.gpg» creado
+gpg: anillo «/tmp/tmpecy8agsl/pubring.gpg» creado
+gpg: solicitando clave F06FC659 de hkp servidor keyserver.ubuntu.com
+gpg: /tmp/tmpecy8agsl/trustdb.gpg: se ha creado base de datos de confianza
+gpg: clave F06FC659: clave pública "Launchpad PPA for J Fernyhough" importada
+gpg: Cantidad total procesada: 1
+gpg:               importadas: 1  (RSA: 1)
+OK
+pedro@pedro-OptiPlex-7010:~$ sudo pip install virtualenvwrapper
+The directory '/home/pedro/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/home/pedro/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Requirement already satisfied: virtualenvwrapper in /usr/local/lib/python2.7/dist-packages (4.8.2)
+Requirement already satisfied: virtualenv in /usr/local/lib/python2.7/dist-packages (from virtualenvwrapper) (16.0.0)
+Requirement already satisfied: stevedore in /usr/local/lib/python2.7/dist-packages (from virtualenvwrapper) (1.28.0)
+Requirement already satisfied: virtualenv-clone in /usr/local/lib/python2.7/dist-packages (from virtualenvwrapper) (0.3.0)
+Requirement already satisfied: pbr!=2.1.0,>=2.0.0 in /usr/local/lib/python2.7/dist-packages (from stevedore->virtualenvwrapper) (4.0.3)
+Requirement already satisfied: six>=1.10.0 in /usr/local/lib/python2.7/dist-packages (from stevedore->virtualenvwrapper) (1.11.0)
+pedro@pedro-OptiPlex-7010:~$ sudo add-apt-repository ppa:deadsnakes/ppa
+ This PPA contains more recent Python versions packaged for Ubuntu.
+
+Disclaimer: there's no guarantee of timely updates in case of security problems or other issues. If you want to use them in a security-or-otherwise-critical environment (say, on a production server), you do so at your own risk.
+
+Update Note
+===========
+Please use this repository instead of ppa:fkrull/deadsnakes.
+
+Reporting Issues
+================
+Issues can be reported in the master issue tracker at:
+https://github.com/deadsnakes/issues/issues
+
+Supported Ubuntu and Python Versions
+====================================
+Python 3.6 - Ubuntu 14.04, Ubuntu 16.04
+
+For Ubuntu up to 18.04, there's also packages for old Python versions from 2.3 to 3.4.
+
+The packages may also work on other versions of Ubuntu or Debian, but that is not tested or supported.
+
+Third-Party Python Modules
+==========================
+Python modules in the official Ubuntu repositories are packaged to work with the Python interpreters from the official repositories. Accordingly, they generally won't work with the Python interpreters from this PPA. As an exception, pure-Python modules for Python 3 will work, but any compiled extension modules won't.
+
+To install 3rd-party Python modules, you should use the common Python packaging tools.  For an introduction into the Python packaging ecosystem and its tools, refer to the Python Packaging User Guide:
+https://packaging.python.org/installing/
+
+Sources
+=======
+The package sources are available at:
+https://github.com/deadsnakes/
+ Más información: https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa
+Pulse [Intro] para continuar o ctrl-c para cancelar
+
+gpg: anillo «/tmp/tmpqj8lay0w/secring.gpg» creado
+gpg: anillo «/tmp/tmpqj8lay0w/pubring.gpg» creado
+gpg: solicitando clave 6A755776 de hkp servidor keyserver.ubuntu.com
+gpg: /tmp/tmpqj8lay0w/trustdb.gpg: se ha creado base de datos de confianza
+gpg: clave 6A755776: clave pública "Launchpad PPA for deadsnakes" importada
+gpg: Cantidad total procesada: 1
+gpg:               importadas: 1  (RSA: 1)
+OK
+pedro@pedro-OptiPlex-7010:~$ sudo apt-get update
+Ign:1 http://dl.google.com/linux/chrome/deb stable InRelease                   
+Obj:2 http://co.archive.ubuntu.com/ubuntu xenial InRelease                     
+Des:3 http://co.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]    
+Obj:4 http://dl.google.com/linux/chrome/deb stable Release                     
+Des:6 http://co.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]  
+Des:7 http://co.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [783 kB]
+Des:8 http://security.ubuntu.com/ubuntu xenial-security InRelease [107 kB]     
+Des:9 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu xenial InRelease [18,0 kB]
+Des:10 http://co.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages [718 kB]
+Des:11 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial InRelease [18,0 kB]
+Des:12 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata [67,7 kB]
+Des:13 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu xenial/main amd64 Packages [24,1 kB]
+Des:14 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons [68,0 kB]
+Des:15 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata [107 kB]
+Des:16 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu xenial/main i386 Packages [24,1 kB]
+Des:17 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons [142 kB]
+Des:18 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu xenial/main Translation-en [6.240 B]
+Des:19 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial/main amd64 Packages [4.760 B]
+Des:20 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial/main i386 Packages [4.748 B]
+Des:21 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial/main Translation-en [2.128 B]
+Des:22 http://co.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata [319 kB]
+Des:23 http://co.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons [224 kB]
+Des:24 http://co.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [631 kB]
+Des:25 http://co.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages [577 kB]
+Des:26 http://co.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata [246 kB]
+Des:27 http://co.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons [331 kB]
+Des:28 http://co.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata [5.964 B]
+Des:29 http://co.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata [3.328 B]
+Des:30 http://co.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata [5.092 B]
+Descargados 4.652 kB en 20s (225 kB/s)                                         
+Leyendo lista de paquetes... Hecho
+pedro@pedro-OptiPlex-7010:~$ sudo apt-get install python3.6
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Se instalarán los siguientes paquetes adicionales:
+  libpython3.6-minimal libpython3.6-stdlib python3.6-minimal
+Paquetes sugeridos:
+  python3.6-venv python3.6-doc binfmt-support
+Se instalarán los siguientes paquetes NUEVOS:
+  libpython3.6-minimal libpython3.6-stdlib python3.6 python3.6-minimal
+0 actualizados, 4 nuevos se instalarán, 0 para eliminar y 102 no actualizados.
+Se necesita descargar 4.505 kB de archivos.
+Se utilizarán 23,1 MB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+Des:1 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial/main amd64 libpython3.6-minimal amd64 3.6.5-5~16.04.york1 [574 kB]
+Des:2 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial/main amd64 python3.6-minimal amd64 3.6.5-5~16.04.york1 [1.712 kB]
+Des:3 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial/main amd64 libpython3.6-stdlib amd64 3.6.5-5~16.04.york1 [1.989 kB]
+Des:4 http://ppa.launchpad.net/jonathonf/python-3.6/ubuntu xenial/main amd64 python3.6 amd64 3.6.5-5~16.04.york1 [230 kB]
+Descargados 4.505 kB en 49s (90,2 kB/s)                                        
+Seleccionando el paquete libpython3.6-minimal:amd64 previamente no seleccionado.
+(Leyendo la base de datos ... 215136 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../libpython3.6-minimal_3.6.5-5~16.04.york1_amd64.deb ...
+Desempaquetando libpython3.6-minimal:amd64 (3.6.5-5~16.04.york1) ...
+Seleccionando el paquete python3.6-minimal previamente no seleccionado.
+Preparando para desempaquetar .../python3.6-minimal_3.6.5-5~16.04.york1_amd64.deb ...
+Desempaquetando python3.6-minimal (3.6.5-5~16.04.york1) ...
+Seleccionando el paquete libpython3.6-stdlib:amd64 previamente no seleccionado.
+Preparando para desempaquetar .../libpython3.6-stdlib_3.6.5-5~16.04.york1_amd64.deb ...
+Desempaquetando libpython3.6-stdlib:amd64 (3.6.5-5~16.04.york1) ...
+Seleccionando el paquete python3.6 previamente no seleccionado.
+Preparando para desempaquetar .../python3.6_3.6.5-5~16.04.york1_amd64.deb ...
+Desempaquetando python3.6 (3.6.5-5~16.04.york1) ...
+Procesando disparadores para man-db (2.7.5-1) ...
+Procesando disparadores para gnome-menus (3.13.3-6ubuntu3.1) ...
+Procesando disparadores para desktop-file-utils (0.22-1ubuntu5.1) ...
+Procesando disparadores para bamfdaemon (0.5.3~bzr0+16.04.20160824-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Procesando disparadores para mime-support (3.59ubuntu1) ...
+Configurando libpython3.6-minimal:amd64 (3.6.5-5~16.04.york1) ...
+Configurando python3.6-minimal (3.6.5-5~16.04.york1) ...
+Configurando libpython3.6-stdlib:amd64 (3.6.5-5~16.04.york1) ...
+Configurando python3.6 (3.6.5-5~16.04.york1) ...
+pedro@pedro-OptiPlex-7010:~$ mkvirtualenv -p python3
+Running virtualenv with interpreter /usr/bin/python3
+You must provide a DEST_DIR
+Usage: virtualenv.py [OPTIONS] DEST_DIR
+
+Options:
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+  -v, --verbose         Increase verbosity.
+  -q, --quiet           Decrease verbosity.
+  -p PYTHON_EXE, --python=PYTHON_EXE
+                        The Python interpreter to use, e.g.,
+                        --python=python3.5 will use the python3.5 interpreter
+                        to create the new environment.  The default is the
+                        interpreter that virtualenv was installed with
+                        (/usr/bin/python3)
+  --clear               Clear out the non-root install and start from scratch.
+  --no-site-packages    DEPRECATED. Retained only for backward compatibility.
+                        Not having access to global site-packages is now the
+                        default behavior.
+  --system-site-packages
+                        Give the virtual environment access to the global
+                        site-packages.
+  --always-copy         Always copy files rather than symlinking.
+  --relocatable         Make an EXISTING virtualenv environment relocatable.
+                        This fixes up scripts and makes all .pth files
+                        relative.
+  --no-setuptools       Do not install setuptools in the new virtualenv.
+  --no-pip              Do not install pip in the new virtualenv.
+  --no-wheel            Do not install wheel in the new virtualenv.
+  --extra-search-dir=DIR
+                        Directory to look for setuptools/pip distributions in.
+                        This option can be used multiple times.
+  --download            Download preinstalled packages from PyPI.
+  --no-download, --never-download
+                        Do not download preinstalled packages from PyPI.
+  --prompt=PROMPT       Provides an alternative prompt prefix for this
+                        environment.
+  --setuptools          DEPRECATED. Retained only for backward compatibility.
+                        This option has no effect.
+  --distribute          DEPRECATED. Retained only for backward compatibility.
+                        This option has no effect.
+  --unzip-setuptools    DEPRECATED.  Retained only for backward compatibility.
+                        This option has no effect.
+pedro@pedro-OptiPlex-7010:~$ mkvirtualenv -p python3.6 prodjango
+Running virtualenv with interpreter /usr/bin/python3.6
+Using base prefix '/usr'
+New python executable in /home/pedro/.virtualenvs/prodjango/bin/python3.6
+Also creating executable in /home/pedro/.virtualenvs/prodjango/bin/python
+Installing setuptools, pip, wheel...done.
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/prodjango/bin/predeactivate
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/prodjango/bin/postdeactivate
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/prodjango/bin/preactivate
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/prodjango/bin/postactivate
+virtualenvwrapper.user_scripts creating /home/pedro/.virtualenvs/prodjango/bin/get_env_details
+(prodjango) pedro@pedro-OptiPlex-7010:~$ sudo apt-get slack
+
+
+*******************************************************************************************
+
+pedro@pedro-OptiPlex-7010:~$ workon
+workon: no se encontró la orden
+pedro@pedro-OptiPlex-7010:~$ cd .ba
+bash: cd: .ba: No existe el archivo o el directorio
+pedro@pedro-OptiPlex-7010:~$ ls -a
+.              Documentos        .java       .PyCharmCE2018.1
+..             Escritorio        .local      PycharmProjects
+.bash_history  examples.desktop  .mozilla    .ssh
+.bash_logout   .gconf            Música      .sudo_as_admin_successful
+.bashrc        get-pip.py        .nano       Vídeos
+.cache         .gitconfig        .pki        .Xauthority
+.compiz        .gnome            Plantillas  .xsession-errors
+.config        .gnupg            .profile    .xsession-errors.old
+Descargas      .ICEauthority     Público
+.dmrc          Imágenes          pycharm
+pedro@pedro-OptiPlex-7010:~$ cat .bashrc
+# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+      *) return;;
+esac
+
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+
+# If set, the pattern "**" used in a pathname expansion context will
+# match all files and zero or more directories and subdirectories.
+#shopt -s globstar
+
+# make less more friendly for non-text input files, see lesspipe(1)
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+
+# set variable identifying the chroot you work in (used in the prompt below)
+if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
+    debian_chroot=$(cat /etc/debian_chroot)
+fi
+
+# set a fancy prompt (non-color, unless we know we "want" color)
+case "$TERM" in
+    xterm-color|*-256color) color_prompt=yes;;
+esac
+
+# uncomment for a colored prompt, if the terminal has the capability; turned
+# off by default to not distract the user: the focus in a terminal window
+# should be on the output of commands, not on the prompt
+#force_color_prompt=yes
+
+if [ -n "$force_color_prompt" ]; then
+    if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
+	# We have color support; assume it's compliant with Ecma-48
+	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+	# a case would tend to support setf rather than setaf.)
+	color_prompt=yes
+    else
+	color_prompt=
+    fi
+fi
+
+if [ "$color_prompt" = yes ]; then
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+else
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+fi
+unset color_prompt force_color_prompt
+
+# If this is an xterm set the title to user@host:dir
+case "$TERM" in
+xterm*|rxvt*)
+    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+    ;;
+*)
+    ;;
+esac
+
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    #alias dir='dir --color=auto'
+    #alias vdir='vdir --color=auto'
+
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
+# colored GCC warnings and errors
+#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+# Alias definitions.
+# You may want to put all your additions into a separate file like
+# ~/.bash_aliases, instead of adding them here directly.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+if ! shopt -oq posix; then
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
+fi
+pedro@pedro-OptiPlex-7010:~$ nano  .bashrc
+pedro@pedro-OptiPlex-7010:~$ ls
+Descargas   Escritorio        get-pip.py  Música      Público  PycharmProjects
+Documentos  examples.desktop  Imágenes    Plantillas  pycharm  Vídeos
+pedro@pedro-OptiPlex-7010:~$ touch PycharmProjects/workspace/lsv django.txt
+pedro@pedro-OptiPlex-7010:~$ cd PycharmProjects/
+pedro@pedro-OptiPlex-7010:~/PycharmProjects$ cd workspace/
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace$ cd lsv/
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ touch djsngo.txt
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ cat .bashrc
+cat: .bashrc: No existe el archivo o el directorio
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ nano  .bashrc
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ ls
+01.py  02.py  03.py  django.txt  fibonnaci
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ mkdir 
+
+*******************************************************************************************
+
+pedro@pedro-OptiPlex-7010:~$ cd PycharmProjects/workspace/lsv
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ ls
+01.py  02.py  03.py  django.txt  djpedro  fibonnaci
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ cd djpedro
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv/djpedro$ ls
+db.sqlite3  djpedro  manage.py
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv/djpedro$ py
+py3clean          pydoc3            python            python3.6
+py3compile        pydoc3.5          python2           python3.6m
+py3versions       pydoc3.6          python2.7         python3m
+pybuild           pygettext         python2.7-config  python-config
+pyclean           pygettext2.7      python2-config    pyversions
+pycompile         pygettext3        python3           
+pydoc             pygettext3.5      python3.5         
+pydoc2.7          pygettext3.6      python3.5m        
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv/djpedro$ python manage.py startapp polls
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv/djpedro$ touch urls.pypedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv/djpedro$ python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 24, 2018 - 18:47:27
+Django version 1.11.13, using settings 'djpedro.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[24/May/2018 18:47:34] "GET /polls/ HTTP/1.1" 200 40
+Not Found: /favicon.ico
+[24/May/2018 18:47:34] "GET /favicon.ico HTTP/1.1" 404 2070
+
+*********************************************************************************
+pedro@pedro-OptiPlex-7010:~$ cd PycharmProjects/workspace/lsv django.txt
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ python -m django ---version
+No Django settings specified.
+Unknown command: '---version'
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ python -m django --version
+1.11.13
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ django-admin startproject propedro
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ ls
+01.py  02.py  03.py  django.txt  fibonnaci  propedro
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ django-admin startproject djpedro
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ remove propedro
+remove: no se encontró la orden
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ rv propedro
+rv: no se encontró la orden
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ rm propedro
+rm: no se puede borrar 'propedro': Es un directorio
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ $ python manage.py runserver
+$: no se encontró la orden
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$  python manage.py runserver
+python: can't open file 'manage.py': [Errno 2] No such file or directory
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ $ python manage.py runserver
+$: no se encontró la orden
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ ls
+01.py  02.py  03.py  django.txt  djpedro  fibonnaci
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv$ cd djpedro
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv/djpedro$ $ python manage.py runserver
+$: no se encontró la orden
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv/djpedro$ python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 13 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+May 24, 2018 - 17:57:40
+Django version 1.11.13, using settings 'djpedro.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^Cpedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv/djpedro$ ^C
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv/djpedro$ python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying sessions.0001_initial... OK
+pedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv/djpedro$ python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 24, 2018 - 18:01:50
+Django version 1.11.13, using settings 'djpedro.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[24/May/2018 18:04:43] "GET / HTTP/1.1" 200 1716
+Not Found: /favicon.ico
+[24/May/2018 18:04:43] "GET /favicon.ico HTTP/1.1" 404 1963
+^Cpedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv/djpedro$ python manage.py runserver 8080
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 24, 2018 - 18:06:06
+Django version 1.11.13, using settings 'djpedro.settings'
+Starting development server at http://127.0.0.1:8080/
+Quit the server with CONTROL-C.
+^Cpedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv/djpedro$ python manage.py runserver 8000
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 24, 2018 - 18:07:39
+Django version 1.11.13, using settings 'djpedro.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[24/May/2018 18:07:50] "GET / HTTP/1.1" 200 1716
+^Cpedro@pedro-OptiPlex-7010:~/PycharmProjects/workspace/lsv/djpedro$ python manage.py runserver 8080
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 24, 2018 - 18:08:05
+Django version 1.11.13, using settings 'djpedro.settings'
+Starting development server at http://127.0.0.1:8080/
+Quit the server with CONTROL-C.
+[24/May/2018 18:08:13] "GET / HTTP/1.1" 200 1716
+Not Found: /favicon.ico
+[24/May/2018 18:08:13] "GET /favicon.ico HTTP/1.1" 404 1963
+[24/May/2018 18:08:33] "GET / HTTP/1.1" 200 1716
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 24, 2018 - 18:46:47
+Django version 1.11.13, using settings 'djpedro.settings'
+Starting development server at http://127.0.0.1:8080/
+Quit the server with CONTROL-C.
+
+

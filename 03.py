@@ -42,17 +42,40 @@ class Cuadrado(Figura):
      return p
 
     def descripcion(self):
-        return ("Soy un Cuadrado")
+       # return ("Soy un Cuadrado")
+        return (super().descripcion() + " Cuadratica")
+
+
+
+
+class Saludo:
+
+    def area(self):
+        return 'Hola soy el area de cualquier figura'
+
+    def perimetro(self):
+     return 'Hola soy el perimetro de cualquier figura'
+
+
+
+
+def obtener_area_figura(figura):
+   print("El area del " + figura.__class__.__name__ + " es: ", figura.area())
+   print("El perimetro del " + figura.__class__.__name__ + " es: ", figura.perimetro())
+
+#def obtener_area_figura(figura):
+ #  print("El area del es: ", figura.area())
+  # print("El perimetro del es: ", figura.perimetro())
+
 
 
 c=Circulo(10)
-print("El area del circulo es: ",c.area())
-print("El perimetro del circulo es: ",c.perimetro())
-print(c.descripcion())
-
-
 cu = Cuadrado(5)
-print("El area del cuadrado es: ", cu.area())
-print("El perimetro del cuadrado es: ", cu.perimetro())
-print(cu.descripcion())
+sa = Saludo()
+
+#polimorfismo
+obtener_area_figura(c)
+obtener_area_figura(cu)
+obtener_area_figura(sa)
+
 
