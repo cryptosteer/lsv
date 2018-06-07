@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MENU</title>
+</head>
+<body>
+<ul>
+    <li><a href="{% url 'estudiantes:inicio' %}">Inicio Estudiantes</a></li>
+    <li><a href="{% url 'estudiantes:borrar' %}">Borrar Estudiante</a></li>
+    <li><a href="{% url 'estudiantes:crear' %}">Crear Estudiante</a></li>
+    <li><a href="{% url 'estudiantes:editar' %}">Editar Estudiante</a></li>
+    <li><a href="">profesores</a></li>
+    <li><a href="">materias</a></li>
+</ul>
+<select name=Estudiantes onChange='location.href=this.value'>
+<option value='estudiantes:inicio'>Inicio Estudiantes</option>
+<option value='estudiantes:borrar'>Borrar Estudiante</option>
+<option value='estudiantes:crear'>Crear Estudiante</option>
+</select>
+
+<select name="Estudiantes">
+   <option value="1"><a href="{% url 'estudiantes:inicio' %}">Inicio Estudiantes</a></option>
+   <option value="estudiantes:crear"><a href="{% url 'estudiantes:crear' %}">Crear Estudiante</a></option>
+   <option value="estudiantes:editar"><a href="{% url 'estudiantes:editar' %}">Editar Estudiante</a></option>
+   <option value="4"><a href="{% url 'estudiantes:borrar' %}">Borrar Estudiante</a></option>
+</select>
+<select name="Profesores"
+    onchange="location.href=this.options[this.selectedIndex].value"
+name="elige"
+size="1">
+<option value="#" selected>Elija un destino</option>
+   <option value="estudiantes:inicio">Inicio Estudiantes</option>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ">Inicio Profesores</option>
+   <option value="profesores:crear">Crear Profesor</option>
+   <option value="profesores:editar">Editar Profesor</option>
+   <option value="profesores:borrar">Borrar Profesor</option>
+</select>
+<select name="Materias">
+   <option value="1">Inicio Materias</option>
+   <option value="2">Crear Materia</option>
+   <option value="3">Editar Materia</option>
+   <option value="4">Borrar Materia
+   <option value="5">Ingresar notas Materia</option>
+</select>
+
+</body>
+</html>
