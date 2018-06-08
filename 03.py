@@ -61,4 +61,3 @@ if __name__ == "__main__":
 
     my_square = Cuadrado(4)
     print(my_square)
-
