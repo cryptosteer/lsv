@@ -16,7 +16,7 @@ Casi-palindromo con aquellas cadenas que por un caracter pueden ser palindromo:
 
 def is_palindromo(frase):
 
-    var = frase
+    var = frase.lower().replace(' ', '').replace(',', '')
     x = var == var[::-1]
     if x is True:
         return "Es Polindromo"
