@@ -15,6 +15,7 @@ def is_palindromo(frase):
     :param frase: Cadena de caracteres
     :return: Retorna una cadena de caracteres: Es palindromo. O Es casi-palindromo o No es palindromo
     """
+
     str_clean = ''.join(frase.split(' ',)).replace(',','').lower() # Limiamos la frase de espacios y remplazamos ',' por ''.
     str_reverse = str_clean[::-1]
     output = 'No es polindromo'
