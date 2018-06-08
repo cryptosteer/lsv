@@ -22,7 +22,24 @@ def is_palindromo(frase):
     frase_original = remove_space_and_lower(frase)
     frase_invertida = remove_space_and_lower(frase[::-1])
     data_comparations = list(map(lambda x, y: x == y, frase_invertida, frase_original))
-    return reduce(lambda x: x==False, data_comparations, initial=0)
+    cont = cantidad_apariciones(data_comparations)
+    return final_messages(cont, frase)
+
+
+def final_messages(cont, frase):
+    return {
+        0: '{} es palindrome'.format(frase),
+        1: '{} es casi palindrome'.format(frase),
+        2: '{} no es palindrome'.format(frase)
+    }.get(cont, None)
+
+
+def cantidad_apariciones(data_comparations):
+    cont = 0
+    for item in data_comparations:
+        if not item:
+            cont += 1
+    return cont
 
 
 print(is_palindromo('Isaac ni ronca asi'))
