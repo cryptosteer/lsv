@@ -1,6 +1,7 @@
 """
 Escribir una clase en python llamada circulo que contenga un radio, con un método que devuelva el área y otro que devuelva el perímetro del circulo.
 """
+<<<<<<< HEAD
 import math
 
 
@@ -52,3 +53,6 @@ print("--------------------------------")
 print("El area del cuadrado es: ", cuadrado.area())
 print("El perimetro del cuadrado es: ", cuadrado.perimetro())
 print(cuadrado)
+=======
+
+>>>>>>> c66552e9af1004537b049c53377a56bc6a20cd1d
