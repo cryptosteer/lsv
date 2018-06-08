@@ -9,9 +9,22 @@ Ej: [1, 3, 5, 6, 3, 6, 7, 8, 9, 6] => 6 (six is the most popular number)
 
 """
 
-def popular(l):
-    # Complete
 
 
-lista = [1, 3, 5, 6, 3, 6, 7, 8, 9, 6]
-print("{} is the most popular.".format(popular(lista)))
+lista = [1, 5, 6, 3, 6, 7, 8, 9, 6]
+
+popular = []
+unico = []
+
+for x in lista:
+        if x not in unico:
+            unico.append(x)
+        else:
+            if x not in popular:
+                popular.append(x)
+
+print ("numeros mas populares",popular)
+
+
+
+
