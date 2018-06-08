@@ -12,7 +12,15 @@ Casi-palindromo con aquellas cadenas que por un caracter pueden ser palindromo:
         "Isaac ni ronca así" ---> Casi-palindromo
 """
 
-def is_palindromo():
+def is_palindromo(frase):
     # Complete
+    """Convertimos la cadena en minuscula y remplazamos los valoresde espacios y resplazamos sin espacio"""
+    minuscula = frase
+    cadena=minuscula.lower().replace(' ', '').replace(',', '')
+    x = cadena == cadena[::-1]
+    if x is True:
+        return "polindromo"
+    else:
+        return "no es polindromo"
 
 print("{} ---> {}".format(frase, is_palindromo(frase)))
