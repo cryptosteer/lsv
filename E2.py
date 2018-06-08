@@ -13,6 +13,7 @@ Casi-palindromo con aquellas cadenas que por un caracter pueden ser palindromo:
 """
 
 def is_palindromo():
-    # Complete
+        
 
-print("{} ---> {}".format(frase, is_palindromo(frase)))
+print('{}'.format(is_palindromo()))
+#print("{} ---> {}".format(frase, is_palindromo(frase)))
