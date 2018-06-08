@@ -12,7 +12,19 @@ Casi-palindromo con aquellas cadenas que por un caracter pueden ser palindromo:
         "Isaac ni ronca así" ---> Casi-palindromo
 """
 
-def is_palindromo():
-    # Complete
 
+
+def is_palindromo(frase):
+
+    var = frase
+    x = var == var[::-1]
+    if x is True:
+        return "Es Polindromo"
+    else:
+        return "No es Polindromo"
+
+
+frase = input("Ingrese texto numero a validar: ")
 print("{} ---> {}".format(frase, is_palindromo(frase)))
+
+
