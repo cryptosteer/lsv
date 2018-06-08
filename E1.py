@@ -8,16 +8,50 @@ If two numbers are equal of popularity algorith must return the minor of them.
 Ej: [1, 3, 5, 6, 3, 6, 7, 8, 9, 6] => 6 (six is the most popular number)
 
 """
+"""Se utiliza esta libreria que ayuda con las listas"""
+from collections import Counter
 
+<<<<<<< HEAD
 from collections import Counter
 
 
 def popular(lista):
     x = (Counter(lista).most_common()[0][0])
     return x
+=======
+>>>>>>> 1575cf54374648d680f528485743f2b0c4523a66
 
+def popular(l):
+    """Determinamos cuantas veces esta repetido un numero"""
+    contar=Counter(l)
+    """Utilizamos el metodo most_common que Devuelve una lista de los n elementos más comunes y sus recuentos,
+     del más comun."""
+    popular=contar.most_common(1)[0][0]
+    return popular
 
 lista = [1, 3, 5, 6, 3, 6, 7, 8, 9, 6]
 print("{} is the most popular.".format(popular(lista)))
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 1575cf54374648d680f528485743f2b0c4523a66
