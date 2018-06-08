@@ -9,10 +9,20 @@ Casi-palindromo con aquellas cadenas que por un caracter pueden ser palindromo:
 
     Ej: 
         "Yo dono rosas, oro no doy" ---> Palindromo
-        "Isaac ni ronca así" ---> Casi-palindromo
+        "Isaac ni ronca asi" ---> Casi-palindromo
 """
+from functools import reduce
 
-def is_palindromo():
-    # Complete
 
-print("{} ---> {}".format(frase, is_palindromo(frase)))
+def remove_space_and_lower(frase):
+    return frase.lower().replace(' ', '')
+
+
+def is_palindromo(frase):
+    frase_original = remove_space_and_lower(frase)
+    frase_invertida = remove_space_and_lower(frase[::-1])
+    data_comparations = list(map(lambda x, y: x == y, frase_invertida, frase_original))
+    return reduce(lambda x: x==False, data_comparations, initial=0)
+
+
+print(is_palindromo('Isaac ni ronca asi'))

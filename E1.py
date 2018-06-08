@@ -9,8 +9,15 @@ Ej: [1, 3, 5, 6, 3, 6, 7, 8, 9, 6] => 6 (six is the most popular number)
 
 """
 
+import collections
+
+
 def popular(l):
-    # Complete
+    item_popular = collections.Counter(l).most_common()[:2]
+    first_most_popular, second_most_popular = item_popular
+    if first_most_popular[1] == second_most_popular[1] and first_most_popular[0] > second_most_popular[0]:
+        return second_most_popular[0]
+    return first_most_popular[0]
 
 
 lista = [1, 3, 5, 6, 3, 6, 7, 8, 9, 6]
