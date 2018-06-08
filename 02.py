@@ -19,4 +19,16 @@ off to its nearest value (for example, if the output received is 26.0,
 it should be printed as 26)
 In case of input data being supplied to the question, it should be assumed
 to be a console input.
-""" 
+"""
+from math import sqrt
+def calcular():
+    cadena =input("ingrese 3 valores separados por ',' : ")
+    C=50
+    H=30
+    numero=[]
+    numero=cadena.split(",")
+    for iten in numero:
+        print (round(sqrt((2 * C * int(iten)/H))), end="," )
+
+
+calcular()
