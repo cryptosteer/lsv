@@ -48,6 +48,10 @@ class Squeare(Figure):
 if __name__ == '__main__':
     A = Circle(2)
     print(A)
+    print(A.description())
     print("------------------------------------------")
     B = Squeare(2)
     print(B)
+    print(B.description())
+
+

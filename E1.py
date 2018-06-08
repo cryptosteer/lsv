@@ -9,8 +9,10 @@ Ej: [1, 3, 5, 6, 3, 6, 7, 8, 9, 6] => 6 (six is the most popular number)
 
 """
 
+from collections import Counter
+
 def popular(l):
-    # Complete
+    return Counter(l).most_common(1)[0][0]
 
 
 lista = [1, 3, 5, 6, 3, 6, 7, 8, 9, 6]
